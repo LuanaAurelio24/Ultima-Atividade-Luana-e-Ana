@@ -1,0 +1,66 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+.menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+}
+li {
+        display: inline-block;
+        margin-left: 5px; 
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2em;
+        padding: 5px;
+        border-radius: 0px 0px 10px 10px;
+    }
+nav {
+        background: rgb(102, 122, 211);
+        display: flex;
+        align-items: center;
+    }
+.logo {
+        color: white;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.25em;
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px;
+        max-width: 200px;
+    }
+.logo-img {
+    max-width: 100%; 
+}
+body {
+    margin: 0;
+    background: url("../Imagens/frg.gif") no-repeat;    
+    background-size: cover
+}
+    
+li:hover {
+        background: rgb(255, 255, 255);
+        color: rgb(20, 20, 20);
+    } 
+h2{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Righteous', cursive;
+    }
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    background: rgb(255, 255, 255);
+        color: rgb(20, 20, 20);
+}
